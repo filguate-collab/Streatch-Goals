@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'MiFuenteDigital';
+  src: url('/cz9adVfP/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #1B244A;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.container h3 {
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif ;
+      font-size: 36px;
+}
+
+
+.individual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "MiFuenteDigital";
+}
+
+
+.box {
+  background-color: black;
+  height: 120px;
+  width: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F94F6D;
+  border-radius: 4px;
+  font-size: 90px;
+
+  
+}
+
+
+
+.highlight {
+    text-shadow: 0 0 8px #F94F6D;
+}
+
+.small-box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+    
+    margin-top: 15px;
+
+}
+
+.little-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+}
+
+#reset {
+    background-color: white;
+    color: #1B244A;
+    border: none;
+    padding:  10px 20px;
+    border-radius: 5px;
+    transition:  0.2s ease;
+
+ 
+}
+
+#reset:hover {
+    transform: translateY(-2px);;font-weight: bold;
+    
+}
+
+#reset:active {
+    background-color: #1B244A;
+    color:white;
+    border: solid 1px  white;
+    transform: translateY(0) scale(0.95);
+    
+}

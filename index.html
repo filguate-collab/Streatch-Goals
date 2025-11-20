@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="individual">
+            <h3>HOME</h3>
+            <div class="box" id="home-score">
+                <p>00</p>
+            </div>
+            <div class="small-box-container">
+                <div class="little-box" id="plus-one-home">+1</div>
+                <div class="little-box" id="plus-two-home">+2</div>
+                <div class="little-box" id="plus-three-home">+3</div>
+            </div>
+        </div>
+        <div class="individual">
+            <h3>GUEST</h3>
+            <div class="box" id="guest-score">
+                <p>00</p>
+            </div>
+            <div class="small-box-container">
+                <div class="little-box" id="plus-one-guest">+1</div>
+                <div class="little-box" id="plus-two-guest">+2</div>
+                <div class="little-box" id="plus-three-guest">+3</div>
+            </div>
+        </div>
+        <button id="reset" onclick="resetScore()">RESET</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
