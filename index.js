@@ -79,6 +79,7 @@ function removeClassTo(element1, element2) {
 function resetScore() {
   homeScore = 0;
   guestScore = 0;
+  removeClassTo(homeScoreEl, guestScoreEl);
   update(homeScore, homeScoreEl);
   update(guestScore, guestScoreEl);
 }
