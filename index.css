@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'MiFuenteDigital';
-  src: url('ursedTimerUlil-Aznm.ttf') format('truetype');
+    font-family: 'MiFuenteDigital';
+    src: url('./ursedTimerUlil-Aznm.ttf') format('truetype');
 }
 
 body {
